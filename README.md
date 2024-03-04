@@ -28,22 +28,31 @@ Requistos: grpcio grpcio-tools fastapi uvicorn docker Es necesario tener descarg
 ## detalles del desarrollo.
 ### Pserver (Peer Server) 
 El servidor de pares se implementó utilizando el lenguaje de programación Python y el framework de desarrollo de aplicaciones web FastAPI. 
+
 Se diseñó para manejar las solicitudes de carga y descarga de archivos de los clientes mediante comunicación RPC utilizando gRPC. 
+
 Se definieron los métodos UploadFile y DownloadFile en el servicio gRPC PeerService para manejar las solicitudes de carga y descarga de archivos, respectivamente. 
+
 Se utilizó la biblioteca concurrent.futures para manejar las conexiones concurrentes entrantes y salientes.
 ### Pclient (Peer Client)
 El cliente de pares se implementó como una interfaz de línea de comandos (CLI) utilizando el lenguaje de programación Python y la biblioteca gRPC para comunicarse con el servidor de pares.
+
 Se implementaron los métodos upload_file y download_file para permitir a los usuarios cargar y descargar archivos desde la línea de comandos.
+
 Se utilizó la biblioteca argparse para analizar los argumentos de la línea de comandos proporcionados por el usuario.
 ### Server Central
 El servidor central se implementó como una aplicación web utilizando el framework FastAPI para manejar las solicitudes de registro de pares y búsquedas de archivos.
+
 Se definieron las rutas /register y /search/{filename} para manejar las solicitudes de registro de pares y búsquedas de archivos, respectivamente.
+
 Se utilizó la biblioteca requests para realizar solicitudes HTTP a los pares y coordinar el registro y la búsqueda de archivos en la red.
 ## detalles técnicos
 Lenguaje de Programación: Python
 ## Frameworks y Bibliotecas:
 FastAPI: Framework web para construir APIs rápidas con Python.
+
 gRPC: Framework para la implementación de servicios RPC (Remote Procedure Call).
+
 Requests: Biblioteca HTTP para realizar solicitudes web en Python.
 ### Herramientas:
 Concurrency in Python: Módulo concurrent.futures para manejar la concurrencia en Python.
@@ -51,13 +60,21 @@ Concurrency in Python: Módulo concurrent.futures para manejar la concurrencia e
 Argument Parsing: Biblioteca argparse para analizar los argumentos de la línea de comandos.
 
 Sistema Operativo: Windows, Ubuntu
+
 Entorno de Desarrollo: VisualStudio
+
 Herramientas de Control de Versiones: Git
+
 Dependencias del Proyecto:
+
 fastapi
+
 grpcio
+
 requests
+
 concurrent.futures
+
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 ## IP o nombres de dominio en nube o en la máquina servidor.
 Se uso AWS para este proyecto, tambien se trabajo de forma local, no se uso dominio se trabajo por ip.
