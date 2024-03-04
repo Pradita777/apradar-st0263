@@ -1,3 +1,22 @@
+Descripcion
+La idea del proyecto es crear una red pear to pear con un servidor central, esto para que cada pear carge o descargue archivos.
+Tecnologías Utilizadas
+El proyecto se realizo en Python 3.12.2
+Requistos:
+grpcio
+grpcio-tools
+fastapi
+uvicorn
+docker
+Es necesario tener descargadas las librerias anteriores y docker en el computador.
+para ejecutar el servidor central:
+uvicorn serverc:app --reload
+para ejecutar el pserver:
+python peer_server.py
+para ejecutar el pclient:
+python peer_client.py download "nombre_archivo.txt"
+python peer_client.py upload "nombre_archivo.txt"
+
 1.	Preguntas que tiene del enunciado (entendimiento del problema)
 ¿Porque separamos el pear en pclient y pserver?
 ¿Que metodo es mejor para pasar archivos?
