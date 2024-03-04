@@ -56,7 +56,6 @@ fastapi
 grpcio
 requests
 concurrent.futures
-![image](https://github.com/Pradita777/pradita777-st0263/assets/92939800/df0c36aa-d252-4dbf-8c8e-f0263bffd350)
 # 4. Descripción del ambiente de EJECUCIÓN (en producción) lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones.
 ## IP o nombres de dominio en nube o en la máquina servidor.
 Se uso AWS para este proyecto, tambien se trabajo de forma local, no se uso dominio se trabajo por ip.
