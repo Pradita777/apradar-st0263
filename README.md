@@ -18,9 +18,17 @@
 ### Se uso Python 3.12.2 
 ### Requistos: grpcio grpcio-tools fastapi uvicorn docker Es necesario tener descargadas las librerias anteriores y docker en el computador. 
 ## como se compila y ejecuta.
-### para ejecutar el servidor central: uvicorn serverc:app --reload 
-### para ejecutar el pserver: python peer_server.py 
-### para ejecutar el pclient: python peer_client.py download "nombre_archivo.txt" python peer_client.py upload "nombre_archivo.txt"
+### para ejecutar el servidor central: 
+
+    uvicorn serverc:app --reload 
+
+### para ejecutar el pserver: 
+
+    python peer_server.py 
+
+### para ejecutar el pclient: 
+    python peer_client.py download "nombre_archivo.txt" 
+    python peer_client.py upload "nombre_archivo.txt"
 ## detalles del desarrollo.
 ### Pserver (Peer Server) 
 ### El servidor de pares se implementó utilizando el lenguaje de programación Python y el framework de desarrollo de aplicaciones web FastAPI. 
@@ -60,7 +68,9 @@
 ## descripción y como se configura los parámetros del proyecto (ej: ip, puertos, conexión a bases de datos, variables de ambiente, parámetros, etc)
 ### Para el uso de AWS es necesario que cada puerto que vayamos a usar lo definamos en las llaves de seguridad de las instancias si no no podremos comunicarnos con el puerto, es importante en el pserver cambiar la ip del servidor central cada que cambie.
 ## como se lanza el servidor.
-### uvicorn serverc:app --reload 
+
+    uvicorn serverc:app --reload 
+  
 ## una mini guia de como un usuario utilizaría el software o la aplicación
 ### https://eafit.sharepoint.com/:v:/s/siuu/EdTWeUxgiyJHkRD_intHZdoBBmBKSfhWY6zvdonM1hq4mQ?e=hrXef2
 # referencias:
