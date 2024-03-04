@@ -47,7 +47,9 @@ gRPC: Framework para la implementación de servicios RPC (Remote Procedure Call)
 Requests: Biblioteca HTTP para realizar solicitudes web en Python.
 ### Herramientas:
 Concurrency in Python: Módulo concurrent.futures para manejar la concurrencia en Python.
+
 Argument Parsing: Biblioteca argparse para analizar los argumentos de la línea de comandos.
+
 Sistema Operativo: Windows, Ubuntu
 Entorno de Desarrollo: VisualStudio
 Herramientas de Control de Versiones: Git
