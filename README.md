@@ -51,4 +51,5 @@ Para este reto solo lo hice con el servidor central
 Se muestran en el video
 13.	Realice la documentación
 14.	Entregue y sustente al profesor mediante un video creado por ud donde explique el proceso de diseño, desarrollo y ejecución (no más de 30 mins)
+https://eafit.sharepoint.com/:v:/s/siuu/EdTWeUxgiyJHkRD_intHZdoBBmBKSfhWY6zvdonM1hq4mQ?e=hrXef2
 
